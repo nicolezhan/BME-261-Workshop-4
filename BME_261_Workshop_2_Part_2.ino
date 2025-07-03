@@ -13,7 +13,7 @@ void loop() {
   int sensorValue = analogRead(photoresistor);
   
   if(sensorValue < 450) {
-    setColour(200, 0, 0);
+    setColour(100, 0, 0);
   }
   else if (sensorValue > 800) {
     setColour(0 , 0, 200);
