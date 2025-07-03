@@ -19,7 +19,7 @@ void loop() {
     setColour(0 , 0, 50);
   }
   else {
-    setColour(0, 200, 0);
+    setColour(0, 100, 0);
   }
   delay(200);
 }
