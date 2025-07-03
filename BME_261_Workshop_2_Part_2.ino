@@ -16,7 +16,7 @@ void loop() {
     setColour(100, 0, 0);
   }
   else if (sensorValue > 800) {
-    setColour(0 , 0, 200);
+    setColour(0 , 0, 50);
   }
   else {
     setColour(0, 200, 0);
